@@ -2,7 +2,9 @@ import streamlit as st
 import pandas as pd
 
 
-st.title("📊 Data evaluation app")
+st.title("Inteligencia Artificial con IDESIE Bussiness School")
+
+st.checkbox('Inicia tu prueba')
 
 st.write(
     "We are so glad to see you here. ✨ "
