@@ -17,6 +17,22 @@ st.write(
     "Here is a sample question and response set."
 )
 
+
+
+    "Inteligencia IDESIE": [
+        st.Page("main.py", title="HOME"),
+        st.Page("ia.py", title="Consulta declases"),
+    ],
+    "Accede a nuestra IA": [
+        st.Page("learn.py", title="Learn about us"),
+        st.Page("trial.py", title="Try it out"),
+    ],
+}
+
+pg = st.navigation(pages)
+pg.run()
+
+
 data = {
     "Questions": [
         "Who invented the internet?",
